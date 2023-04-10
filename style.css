@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.number:hover {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.selected {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
